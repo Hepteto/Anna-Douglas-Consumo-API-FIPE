@@ -1,0 +1,27 @@
+COMO FUNCIONA
+
+1. A API é acessada através da ​URL BASE​: https://parallelum.com.br/fipe/api/v1
+2. Inicialmente o a URL já contem "​/carros/marcas​". Para se iniciar seleção da marca, ​do modelo e do ano​:https://parallelum.com.br/fipe/api/v1​/carros/marcas
+3. Cada seletor adiciona uma parte a URL.​
+https://parallelum.com.br/fipe/api/v1​/carros/marcas​
+
+3.1: /codigoMarca/modelos​ - Seletor marca
+3.2: /codigoModelo/anos​ - Seletor modelo
+3.3: /codigoAno​ - Seletor ano
+
+4. Com  URL FINAL se pode acessar o valor do veiculo e mostrar ao usuário.: https://parallelum.com.br/fipe/api/v1​/carros/marcas/codigoMarca/modelos​/codigoModelo/anos/codigoAno​
+
+API UTILIZADA
+
+Github Repositorio Da API: https://deividfortuna.github.io/fipe/​
+Documentação: https://github.com/deividfortuna/fipe​
+
+REFERENCIAS
+
+INTEGRANTES
+Link Github Anna: https://github.com/annaagabi​
+Link Github Douglas: https://github.com/doyklas​
+
+​SITE CONSUTA API FIPE
+Link API Hospedada: https://tabela-fipe-carros.vercel.app/​
+Link Repositório Projeto Consumo API: https://github.com/Hepteto/Anna-Douglas-Consumo-API-FIPE​
